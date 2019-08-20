@@ -167,7 +167,7 @@ helm install svc-cat/catalog \
     --name catalog --namespace catalog
 ```
 
-If you want to install older version of service catalog (for instance the  API-server based version from v0.2 branch) append branch name to the chart name:
+If you want to install an older version of Service Catalog (for instance the API Server-based version from the v0.2 branch) follow the branch name with the name of the chart:
 
 ```console
 helm install svc-cat/catalog-v0.2 \
